@@ -36,7 +36,9 @@ html,
 /* end Sticky footer */
 .page {
     background-color: #0a0202;
-    background: url(../img/page__background.jpg) top center no-repeat;
+    background-image: url(../img/page__background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .ie-bgackground {
@@ -292,6 +294,10 @@ html,
     vertical-align: top;
     text-align: center;
     margin: 0 6px;
+}
+.advantage__image {
+    border: 3px solid #fff;
+    box-sizing: border-box;
 }
 .advantage__title {
     font: 400 60px/1 'Six Caps', monospace;
